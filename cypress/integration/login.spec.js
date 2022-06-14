@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+///  <reference types="cypress" />
     const perfil = require('../fixtures/perfil.json');
 
 context('Funcionalidade Login', () =>{
@@ -8,7 +8,7 @@ context('Funcionalidade Login', () =>{
     })
 
     afterEach(() => {
-        cy.screenshot()
+        //cy.screenshot()
     })
         
     it('Deve fazer login com sucesso', () => {
